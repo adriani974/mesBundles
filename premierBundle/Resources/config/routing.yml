@@ -1,0 +1,8 @@
+
+hello_world:
+    path:     /helloWorld
+    defaults: { _controller: WmdpremierBundle:Labo:helloWorld }
+
+hello_name:
+    path:     /helloName/{name}
+    defaults: { _controller: WmdpremierBundle:Labo:helloName }
